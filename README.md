@@ -1,13 +1,15 @@
-# Rain Tomorrow?
-Attempting to build a machine learning model(s) to predict whether it will rain the next day in Australia.
+# Rain Prediction in Australia
+Attempting to build a machine learning model(s) to predict whether it will rain the next day in Australia. The [dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) used in this project has approx 140k rows and 24 features. 
 
 # Before you get started
-Concepts/Software/Programming modules a user may have to read up on before getting started with this project. eg. 'Read about [neural networks](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6?gi=44b811975215) before getting started.'
+- Good understanding of pandas library
+- Intermediate understanding of sklearn library (random forest classifier, gridsearchCV, train test split)
+- Basic usage of jupyter notebooks
 
 # Setup
 **How to obtain this repository:**
 ```sh
-git clone https//link.to.this.projects.git-repo
+git clone https://github.com/danielc92/rain_prediction.git
 ```
 **Modules/dependencies:**
 - `pandas`
@@ -21,10 +23,12 @@ pip install pandas jupyter sklearn
 ```
 
 # Tests
-- No tests at this point in time
+- Feature engineering on source dataset
+- Built model with/without `pandas.get_dummies` process
 
 # Contributors
 - Daniel Corcoran
 
 # Sources
-- [Dataset from Kaggle](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package)
+- [Dataset from `kaggle`](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package)
+- [Random Forest Classifier from `sklearn`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
